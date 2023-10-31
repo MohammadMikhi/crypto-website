@@ -1,0 +1,69 @@
+.card {
+  background: url("../../../../public/crypto background.jpeg") no-repeat;
+  background-size: cover;
+  width: 37em;
+  height: 14em;
+  border-radius: 1em;
+  box-shadow: 0px 0px 5px 1px #fff;
+  color: #fff;
+  transition: 0.2s;
+  &:hover{
+    width: 37.5em;
+    height: 14.5em;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+}
+.wrapper {
+  background: rgba(255, 224, 2, 0.1);
+  width: inherit;
+  height: inherit;
+  border-radius: 1em;
+}
+
+.content{
+  padding: 1.5em;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: space-between;
+}
+.modal{
+  background-color: #3b3b3b;
+  color: white;
+}
+.modalButton{
+  background-color: gold;
+  border: 0;
+  color: #3b3b3b;
+  &:hover{
+    background-color: gold;
+  }
+}
+.cancelButton{
+  color: #3b3b3b;
+}
+.coinInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.coinName{
+  font-size: 1.5em;
+}
+.coinPrice{
+  font-size: 1.2em;
+}
+.coinRanking{
+  font-size: 1.5em;
+}
+.gold{
+  color: gold;
+}
+.silver{
+  color: silver;
+}
+.bronze{
+  color: #CD7F32;
+}
